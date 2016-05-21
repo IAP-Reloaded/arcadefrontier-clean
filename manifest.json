@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "af.js", "data.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "document.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Welcome to ArcadeFrontier",
+   "homepage_url": "http://www.arcadefrontier.com",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC85Fv1wlcaPqzbbrwgCKcRlMisiBkSVc6CuwRR2ss2SAujB2Pw2KxQX4GJ5ttYWSyZZz5Mk79/bqL1nqFf8tKfJ4DD42L5gX7E76McxhT7T7GoN7rWBzJv6xqTWrXBgtIAVCZf5MD2aQBdTELKy86lh7JWJfChAKUSUuULZySAbwIDAQAB",
+   "manifest_version": 2,
+   "name": "ArcadeFrontier",
+   "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*", "storage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.3.4"
+}
